@@ -5,6 +5,8 @@ namespace POO_fundamentos
 	{
 		string nombre, apellidos, movil, fijo;
 		public readonly int AA;
+		public static string empresa;
+		public static int totalContactos = 0;
 
 		public Contacto(string nombre, string apellidos, string movil)
 		{
@@ -12,6 +14,7 @@ namespace POO_fundamentos
 			this.apellidos = apellidos;
 			this.movil = movil;
 			AA = 666666666;
+			totalContactos++;
 		}
 
 		public Contacto(string nombre, string apellidos, string movil, string fijo) :
@@ -26,7 +29,10 @@ namespace POO_fundamentos
 		}
 
      
-
+		public static void verEmpresa()
+		{
+			Console.WriteLine("La empresa es: {0}", empresa);
+		}
 
     }
 }
