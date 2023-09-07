@@ -10,4 +10,9 @@ Contacto.verEmpresa();
 Console.WriteLine("Contactos: {0}", Contacto.totalContactos);
 maria.Nombre = "Maria Luisa";
 Console.WriteLine(maria.Nombre);
+
+Vector a = new Vector(2, 3, 5);
+Vector b = new Vector(3, 4, 5);
+Vector resultado = a + b;
+Console.WriteLine(a + " + " + b+ " = "+resultado);
 Console.ReadKey();
