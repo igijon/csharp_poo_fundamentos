@@ -8,4 +8,6 @@ Console.WriteLine(maria);
 Contacto.empresa = "IES Maestre de Calatrava";
 Contacto.verEmpresa();
 Console.WriteLine("Contactos: {0}", Contacto.totalContactos);
+maria.Nombre = "Maria Luisa";
+Console.WriteLine(maria.Nombre);
 Console.ReadKey();

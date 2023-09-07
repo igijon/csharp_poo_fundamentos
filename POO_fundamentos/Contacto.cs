@@ -23,7 +23,19 @@ namespace POO_fundamentos
 			this.fijo = fijo;
 		}
 
-		~Contacto()
+        public string Nombre
+        {
+            set
+            {
+                nombre = value;
+            }
+            get
+            {
+                return nombre;
+            }
+        }
+
+        ~Contacto()
 		{
 			//Liberar recursos	
 		}
